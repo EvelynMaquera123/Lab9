@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab9">
         <activity
+            android:name=".Comunication"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
